@@ -42,13 +42,6 @@ const presentQuestions: Question[] =
         {
             points: 200,
             question:
-                'What is this Cafe called?',
-            imgSrc: 'https://lh3.googleusercontent.com/p/AF1QipNsmB0ugJeJxYVrBKpRkNkyiEa6cKLamFZ4r0M=s1360-w1360-h1020',
-            answer: 'Chaotic Good',
-        },
-        {
-            points: 200,
-            question:
                 'What school name does this image remind you of?',
             imgSrc: 'https://socialwelfare.library.vcu.edu/wp-content/uploads/2014/02/Horace-Mann-9397522-1-402.jpg',
             answer: 'HoraceMann',
@@ -77,29 +70,7 @@ const futureQuestions: Question[] = sortQuestions([
             "https://a.espncdn.com/i/headshots/nfl/players/full/4431452.png",
         answer: 'Drake Maye',
     },
-     {
-        points: 200,
-        question:
-            'This country is home to the Dolomites, which are a mountain range that has historical \'via ferratas\', iron cables and rungs, to aid traversing the peaks?',
-        imgSrc:
-            "https://laguidalpina.it/cdn/shop/products/ferrata-marmolada-cresta-ovest-Cristiano-Gregnanin-Guida-Alpina-Certificata-Dolomiti-5.jpg?v=1738870778",
-        answer: 'Italy',
-    },
-     {
-        points: 300,
-        question:
-            'This country is home to the Dolomites, which are a mountain range that has historical \'via ferratas\', iron cables and rungs, to aid traversing the peaks?',
-        imgSrc:
-            "https://laguidalpina.it/cdn/shop/products/ferrata-marmolada-cresta-ovest-Cristiano-Gregnanin-Guida-Alpina-Certificata-Dolomiti-5.jpg?v=1738870778",
-        answer: 'Italy',
-    },
-     {
-        points: 400,
-        question:
-            'What city does Ian want to live in when he is retired',
-        answer: 'NYC',
-    }
-    {
+      {
         points: 200,
         question:
             'What is the name of this food?',
@@ -112,6 +83,13 @@ const futureQuestions: Question[] = sortQuestions([
         imgSrc: 'https://hips.hearstapps.com/hmg-prod/images/places-in-italy-lead-marco-bottigelli-65e6208eb4a69.jpg?crop=0.668xw:1.00xh;0.167xw,0&resize=640:*',
         answer: 'Italy',
         },
+     {
+        points: 400,
+        question:
+            'What city does Ian want to live in when he is retired',
+        answer: 'NYC',
+    }
+   
 ]);
 
 
