@@ -13,14 +13,15 @@ const pastQuestions: Question[] = sortQuestions([
         points: 200,
         question:
             'Which country\'s flag is this?',
-        imgSrc: "https://cdn.britannica.com/34/4034-050-91EE1BCF/Flag-Myanmar.jpg",
-        answer: 'Myanmar',
+        imgSrc: "https://cdn.britannica.com/49/1949-050-39ED83BA/Flag-South-Korea.jpg",
+        answer: 'South Korea',
     },
     {
         points: 300,
         question:
-            'What Ivy League school has the highest Native American enrollment (a whoppping 1%)?',
-        answer: 'Dartmouth',
+            'Who wrote this book?',
+        imgSrc: 'https://m.media-amazon.com/images/I/714EMQgmsbL._SY522_.jpg',
+        answer: 'Dr. Seuss',
     },
     {
         points: 400,
@@ -46,9 +47,16 @@ const presentQuestions: Question[] =
             answer: 'Chaotic Good',
         },
         {
+            points: 200,
+            question:
+                'What school name does this image remind you of?',
+            imgSrc: 'https://socialwelfare.library.vcu.edu/wp-content/uploads/2014/02/Horace-Mann-9397522-1-402.jpg',
+            answer: 'HoraceMann',
+        },
+        {
             points: 300,
-            question: 'What programming language is the below code?',
-            imgSrc: '/programming_language.png',
+            question: 'What is the name of this bakery/cafe?',
+            imgSrc: 'https://cdn.columbusunderground.com/wp-content/uploads/2024/12/ParisBaguette-AK3-1536x864.jpg',
             answer: 'Javascript',
         },
         {
@@ -91,6 +99,19 @@ const futureQuestions: Question[] = sortQuestions([
             'What city does Ian want to live in when he is retired',
         answer: 'NYC',
     }
+    {
+        points: 200,
+        question:
+            'What is the name of this food?',
+        imgSrc: 'https://littlesunnykitchen.com/wp-content/uploads/Chicke-tikka-masala-2-7.jpg',
+        answer: 'Chicken Tikka Masala',
+        },
+        {
+        points: 300,
+        question: 'What country is this?',
+        imgSrc: 'https://hips.hearstapps.com/hmg-prod/images/places-in-italy-lead-marco-bottigelli-65e6208eb4a69.jpg?crop=0.668xw:1.00xh;0.167xw,0&resize=640:*',
+        answer: 'Italy',
+        },
 ]);
 
 
