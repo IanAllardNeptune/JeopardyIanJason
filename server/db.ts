@@ -6,8 +6,8 @@ const sortQuestions = (questions: { points: number; question: string; answer: st
 const pastQuestions: Question[] = sortQuestions([
     {
         points: 100,
-        question: 'What US state is the Land of Lincoln?',
-        answer: 'Illinois',
+        question: 'What year was Ian\'s first at Horace Mann',
+        answer: '2022',
     },
     {
         points: 200,
@@ -24,22 +24,22 @@ const pastQuestions: Question[] = sortQuestions([
     },
     {
         points: 400,
-        question: 'Who wrote the Critique of Pure Reason?',
-        answer: 'Immanuel Kant',
+        question: 'What is Ian\'s predominant ancestral country',
+        answer: 'Cananda (French Canada)',
     }
 ]);
 
 const presentQuestions: Question[] =
     sortQuestions([
         {
-            points: 200,
+            points: 100,
             question:
-                'What kind of rock is this?',
-            imgSrc: 'https://madera.objects.liquidweb.services/photos/16842-half-dome-closeup-from-glacier-point-steve-montalto-hmi-Rectangle-600x400.jpg',
+                'How many 400-level courses does Ian take at Horace Mann this year?',
+            imgSrc: 'https://www.shutterstock.com/image-illustration/four-hundred-3d-illustration-golden-260nw-1985281622.jpg',
             answer: 'Granite',
         },
         {
-            points: 100,
+            points: 200,
             question:
                 'What is this Cafe called?',
             imgSrc: 'https://lh3.googleusercontent.com/p/AF1QipNsmB0ugJeJxYVrBKpRkNkyiEa6cKLamFZ4r0M=s1360-w1360-h1020',
@@ -56,18 +56,40 @@ const presentQuestions: Question[] =
             question:
                 'Who painted this?',
             imgSrc:
-                "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjb1tCOwOdOeYcp5iflCvvW95qCqpmNUo-TMIt3ndxzsxzmgmH18iClIIQLPO48ojPg5Rts2AUm9rZBeVPcjnjrjGaLSzCwbipQotY4EhOk3tUoHJjJyZjTqfY5s9MZ5eSkGrrqmom4JXUdHEqE-Ts8E9i-SuFf9xEukJcFBs5NuOhe6ANdODMFYzyV_Q/s16000/Unfinished.jpg",
-            answer: 'Keith Haring',
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/500px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
+            answer: 'Van Gogh',
         }
     ]);
 const futureQuestions: Question[] = sortQuestions([
     {
         points: 100,
         question:
+            'Who is the future of the Patriots Dynasty?',
+        imgSrc:
+            "https://a.espncdn.com/i/headshots/nfl/players/full/4431452.png",
+        answer: 'Drake Maye',
+    },
+     {
+        points: 200,
+        question:
             'This country is home to the Dolomites, which are a mountain range that has historical \'via ferratas\', iron cables and rungs, to aid traversing the peaks?',
         imgSrc:
             "https://laguidalpina.it/cdn/shop/products/ferrata-marmolada-cresta-ovest-Cristiano-Gregnanin-Guida-Alpina-Certificata-Dolomiti-5.jpg?v=1738870778",
         answer: 'Italy',
+    },
+     {
+        points: 300,
+        question:
+            'This country is home to the Dolomites, which are a mountain range that has historical \'via ferratas\', iron cables and rungs, to aid traversing the peaks?',
+        imgSrc:
+            "https://laguidalpina.it/cdn/shop/products/ferrata-marmolada-cresta-ovest-Cristiano-Gregnanin-Guida-Alpina-Certificata-Dolomiti-5.jpg?v=1738870778",
+        answer: 'Italy',
+    },
+     {
+        points: 400,
+        question:
+            'What city does Ian want to live in when he is retired',
+        answer: 'NYC',
     }
 ]);
 
