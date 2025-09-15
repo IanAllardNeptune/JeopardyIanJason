@@ -45,4 +45,4 @@ npm run start
 ```
 
 
-ScreenshotCommit.png
+/ScreenshotCommit.png
