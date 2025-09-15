@@ -20,7 +20,7 @@ const pastQuestions: Question[] = sortQuestions([
         points: 300,
         question:
             'Who wrote this book?',
-        imgSrc: 'seuss.jpg',
+        imgSrc: '/seuss.jpg',
         answer: 'Dr. Seuss',
     },
     {
@@ -37,7 +37,7 @@ const presentQuestions: Question[] =
             question:
                 'How many 400-level courses does Ian take at Horace Mann this year?',
             imgSrc: 'https://www.shutterstock.com/image-illustration/four-hundred-3d-illustration-golden-260nw-1985281622.jpg',
-            answer: 'Granite',
+            answer: '4',
         },
         {
             points: 200,
