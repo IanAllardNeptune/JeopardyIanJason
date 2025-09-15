@@ -20,7 +20,7 @@ const pastQuestions: Question[] = sortQuestions([
         points: 300,
         question:
             'Who wrote this book?',
-        imgSrc: 'https://m.media-amazon.com/images/I/714EMQgmsbL._SY522_.jpg',
+        imgSrc: 'seuss.jpg',
         answer: 'Dr. Seuss',
     },
     {
