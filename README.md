@@ -42,4 +42,7 @@ We use a node server to run the app. on the terminal in your production server, 
 
 ```bash
 npm run start
-``` 
+```
+
+
+![Commit Example:](ScreenshotCommit.png)
